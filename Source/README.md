@@ -1,6 +1,6 @@
 ##VLOOKUP2
 
-###Rationai:
+###Rational:
 Sometimes the provided VLOOKUP function will not find search items because it coerces the entered and stored search key into different types.  This function ensures that the comparison will take place between objects of the same type: Strings.
 
 ###Use:

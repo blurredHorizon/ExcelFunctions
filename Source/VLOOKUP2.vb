@@ -19,10 +19,10 @@ Public Function VLOOKUP2(look_up As String, sh As String, _
     For Each i In r
         If found = False Then
             If i.Value = look_up Then
-				'c is relative to the array colum
-				'if c is positive it will return a column to the right
-				'if c is negative it will return a column to the left
-				'zero just returns the key if found in the array
+		'c is relative to the array colum
+		'if c is positive it will return a column to the right
+		'if c is negative it will return a column to the left
+		'zero just returns the key if found in the array
                 VLOOKUP2 = i.Offset(0, c).Value
                 found = True
             End If
